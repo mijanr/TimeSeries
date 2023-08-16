@@ -11,7 +11,7 @@ jobs:
         id: black
         with:
           options: "--check --verbose"
-          #src: "./src"
+          src: "."
           jupyter: true
           version: "22.3.0"
 
