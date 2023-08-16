@@ -10,7 +10,7 @@ jobs:
         uses: psf/black@stable
         id: black
         with:
-          options: "--check --verbose"
+          options: "--check --diff"
           src: "."
           jupyter: true
           version: "23.7.0"
