@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Install black formatter
-        run: pip install "black[jupyter]"
       - name: Check files using the black formatter
         uses: psf/black@stable
         id: black
