@@ -13,7 +13,7 @@ jobs:
           options: "--check --verbose"
           src: "./src"
           jupyter: true
-          version: "21.5b1"
+          version: "22.3.0"
 
       - name: Create Pull Request
         if: steps.black.outcome == 'success'
