@@ -4,9 +4,6 @@ jobs:
   linter_name:
     name: runner / black
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.11]
     steps:
       - uses: actions/checkout@v2
       - name: Install black formatter
